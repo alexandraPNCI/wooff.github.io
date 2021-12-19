@@ -1,0 +1,50 @@
+<title>Memory Game</title>
+		<!-- Link to the stylesheet and the javascript -->
+		<script src="mg.external.js"></script>
+		<link rel="stylesheet" href= "css/style.css">
+		
+		<!-- Font for the game -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+		rel="stylesheet">
+		
+		<link rel="icon" type="image/x-icon" href="img/paw.png">
+		
+	</head>
+	<body>
+	<!--heading--> 
+	<h1> Memory Game </h1>
+	
+	<!-- start button -->
+	<div class= "startButtonStyle" id = "myStartButton"<button onclick="startButton();"> Start </button></div>
+	
+	<br>
+	
+		<!--help button-->
+	<div class="rules">Help</div>
+	<div class="hide">
+		<li>Click on a card </li>
+		<li>Click on another card</li>
+		<li>If the two squares have the same word inside,
+			they will stay on screen. If they don't, the two
+			cards will flip back over</li>
+		<li>Try to find the corresponding word 
+			by remembering the words under each card</li>
+		<li>Keep matching each word pair until
+			all pairs are revealed</li>
+		<li>Try to stay under 2 minutes or you loose!</li>
+	</div>
+	
+	<br>
+	<!--countdown timer -->
+		<div class="timer">Time left in game:  <span id="time">02:00</span></div>
+		
+	<!--calling the memory board div in css -->
+	<div id="memory_board"></div>
+	<!--runs the new board funtion-->
+	<script>newBoard();</script>
+	
+	<br>
+	</body>
+</html>

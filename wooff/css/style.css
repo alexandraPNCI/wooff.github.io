@@ -1,0 +1,442 @@
+/*stylesheet for wooff added by Alex*/
+
+
+/* body{
+background-color: red; 
+Fonts:
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+font-family: 'Architects Daughter', cursive;
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Varela+Round&display=swap" rel="stylesheet">
+
+
+
+font-family: 'Architects Daughter', cursive;
+font-family: 'Varela Round', sans-serif;
+
+
+
+} test to see if linked */
+
+
+
+
+/* Style for all pages */
+
+body{
+	background-color: #e6f2ff;
+	font: normal 15px 'Varela Round', sans-serif;
+}
+
+
+.nav{
+	font-family: 'Varela Round', sans-serif;
+	color: #ff80d5;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100%;
+
+}
+
+.nav-item{
+	font: normal 15px ;
+}
+
+/* Style for home page */
+
+.head1{
+	width: 100%;
+	color: #ffffff;
+	background-color: #80aaff;
+	font-family: 'Architects Daughter', cursive;
+	Padding-top: 8px;
+	Padding-left: 20px;
+	Border-Radius:8px;
+
+}
+
+.dog1{
+	width: 100%;
+	height: 450px;
+}
+
+p{
+	
+	width: 100%;
+	color: #a64dff;
+	background-color: #e6e6ff;
+	font-family: 'Architects Daughter', cursive;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border-Radius: 40px;
+	font-weight: bold;
+	
+}
+
+
+/* Style for about page */
+
+.aboutHeading{
+	font-size: 5vw;
+	color: #ff66cc;
+}
+
+.aboutUs {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3vw;
+	font-family: 'Architects Daughter', cursive;
+	color: black;
+	z-index: +1;
+	width:100%;
+}
+
+.puppies {
+	position: relative;
+	text-align: center;
+	color: black;
+	size: 30px 30px;
+}
+
+.hatDog{
+	opacity: 0.5;
+	/*width: 1500px;*/
+	width:100%;
+}
+
+.donateNow{
+	display: block;
+	color: white;
+	background-color:#ccccff;
+	font-size:5vw;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+	width: 45%;
+	margin:auto;
+	cursor: pointer;
+}
+
+
+/* Style for events page */
+
+form{
+	text-align: center;
+	background-color: #e6e6ff;
+	
+}
+	
+.submit1{
+	display: center;
+	
+}
+
+.headEvents{
+	width: 100%;
+	color: #ffffff;
+	background-color: #80aaff;
+	font-family: 'Architects Daughter', cursive;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-Radius:8px;
+
+}
+
+.eventInfo{
+	background-color: #e6e6ff;
+	font-family: 'Architects Daughter', cursive;
+}
+
+a:hover {
+	color: #000000;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing:border-box;
+	font: bold;
+	font-family: 'Varela Round', sans-serif;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 20px; 
+    margin: 15px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+	font-family: 'Varela Round', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #ccccff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+}
+ 
+th, td {
+  padding: 15px;
+ 
+}
+
+th{
+	width: 25%;
+	color: #80aaff;
+	background-color: #e6e6ff;
+	font-family: 'Varela Round', sans-serif;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	border-Radius: 40px;
+	
+}
+
+
+/* Style for adopt page */
+
+.adopt{ /* image on adopt page */
+
+	width: 100%;
+	height: 500px;
+}
+
+.adopthead{
+	width: 100%;
+	color: #ffffff;
+	background-color: #80aaff;
+	font-family: 'Architects Daughter', cursive;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	border-Radius:8px;
+
+
+}
+
+.headDog{
+	width: 100%;
+	color: #ffffff;
+	background-color: #80aaff;
+	font-family: 'Architects Daughter', cursive;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	border-Radius:8px;
+
+}
+
+h3{
+	width: 100%;
+	color: #ffffff;
+	background-color: #4d94ff;
+	font-family: 'Architects Daughter', cursive;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	border-Radius:8px;
+	
+}
+
+h6{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+button{
+	background-color: #ccccff;
+    border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Varela Round', sans-serif;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	border-Radius:8px;
+}
+
+.img{
+	cursor: pointer;
+}
+
+/* style for 'thank you for donating!' page*/
+
+.emmaFunction{
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/* style for donate now page*/
+.Donate{
+	/*display: block;*/
+	color: white;
+	background-color:#ccccff;
+	color:white;
+	font-size:5vw;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+	width: 45%;
+	margin:auto;
+	cursor: pointer;
+	border: 5px solid;
+	border-color: white;
+}
+
+/* style for game button*/
+.gameLink{
+	display: block;
+	color: white;
+	background-color:#ccccff;
+	color:white;
+	font-size:5vw;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+	width: 45%;
+	margin:auto;
+	cursor: pointer;
+}
+
+/* Style for contact page */
+
+h5{
+	width: 100%;
+	color: #ffffff;
+	background-color: #4d94ff;
+	font-family: 'Architects Daughter', cursive;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	border-Radius:8px;
+	text-align:center;	
+}
+
+/* Style for footer*/
+
+footer{ 
+	width: 100%;
+    text-align: center;
+	background-color: #ffffff;
+	height: 55px;
+	Padding-top: 8px;
+	Padding-left: 20px;
+	Border-Radius:8px;	font-family: 'Varela Round', sans-serif;    
+	Padding-bottom: 8px;
+}
+
+/* style sheet for the memory game*/
+
+
+/*the game*/
+/* this created a box in the background, an outline of the card game*/
+div#memory_board{	
+	background:#99ffeb;
+	width:540px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;	
+}
+
+/* this targets all child  divs within the memory board AKA the cards.
+ So when i code out the cards they will automatically have all of this */ 
+div#memory_board > div{
+	background-image: url("dog.jpg");
+	background-size:cover;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:32px;
+	cursor:pointer;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/* the heading */
+h1{
+	color:#ffffff;
+	text-align:center;
+	font-size: 60px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/*css for the backgground */
+body{
+	background-color:#ccccff;
+}
+
+/*css for the timer*/
+.timer{
+	color:#ffffff;
+	font-size:45px;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/*hover for the rules*/
+.hide {
+  display: none;
+}
+/*CSS for the start button*/
+.startButtonStyle{
+    display: block;
+	color: white;
+	background-color:#00ff99;
+	color:white;
+	font-size:45px;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+	width: 20%;
+	margin:auto;
+	
+}
+/*CSS for the help button*/
+.rules{
+    display: block;
+	color: white;
+	background-color:#ff3333;
+	color:white;
+	font-size:45px;
+	text-align:center;
+	font-family: 'Varela Round', sans-serif;
+	width: 20%;
+	margin:auto;
+	
+}
+
+/*CSS for what appeas when you hover over the help button*/
+.rules:hover + .hide {
+	display: inline;
+	color: white;
+	color:white;
+	font-size:20px;
+	text-align:left;
+	font-family: 'Varela Round', sans-serif;
+	width: 30%;
+	
+}

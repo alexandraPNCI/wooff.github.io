@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Thank You!!</title>
+	<link rel="icon" type="image/x-icon" href="img/paw.png">
+
+	<!-- link to stylesheet-->
+	<link rel="stylesheet" href= "css/style.css">
+
+</head>
+
+<body>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class= "Donate" onclick="emmaFunction()">Click me to Donate</button>
+
+<script>
+function emmaFunction() {
+  let text;
+  let amount = prompt("Please enter How much you would like to donate:", "5");
+  if (amount == null || amount == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Thank you for donating €" + amount + "!";
+  }
+  alert(text);
+  history.back();
+}
+</script>
+
+</body>
+</html>
